@@ -1,0 +1,50 @@
+{
+  "channel": "stable",
+  "supervisor": "202",
+  "homeassistant": {
+    "default": "0.105.5",
+    "qemux86": "0.105.5",
+    "qemux86-64": "0.105.5",
+    "qemuarm": "0.105.5",
+    "qemuarm-64": "0.105.5",
+    "intel-nuc": "0.105.5",
+    "raspberrypi": "0.105.5",
+    "raspberrypi2": "0.105.5",
+    "raspberrypi3": "0.105.5",
+    "raspberrypi3-64": "0.105.5",
+    "raspberrypi4": "0.105.5",
+    "raspberrypi4-64": "0.105.5",
+    "tinker": "0.105.5",
+    "odroid-c2": "0.105.5",
+    "odroid-n2": "0.105.5",
+    "odroid-xu": "0.105.5"
+  },
+  "hassos": {
+    "ova": "3.13",
+    "rpi": "3.13",
+    "rpi0-w": "3.13",
+    "rpi2": "3.13",
+    "rpi3": "3.13",
+    "rpi3-64": "3.13",
+    "rpi4": "3.13",
+    "rpi4-64": "3.13",
+    "tinker": "3.13",
+    "odroid-c2": "3.13",
+    "odroid-n2": "4.5",
+    "odroid-xu4": "3.13",
+    "intel-nuc": "3.13"
+  },
+  "hassos-cli": "19",
+  "cli": "25",
+  "dns": "9",
+  "audio": "14",
+  "multicast": "2",
+  "image": {
+    "core": "homeassistant/{machine}-homeassistant",
+    "supervisor": "homeassistant/{arch}-hassio-supervisor",
+    "cli": "homeassistant/{arch}-hassio-cli",
+    "audio": "homeassistant/{arch}-hassio-audio",
+    "dns": "homeassistant/{arch}-hassio-dns",
+    "multicast": "homeassistant/{arch}-hassio-multicast"
+  }
+}
